@@ -1,0 +1,208 @@
+/*
+Theme Name: 	Serene Theme
+Theme URI: 		http://www.htmlfivedev.com
+Author: 		Muffin group
+Author URI: 	https://www.linkedin.com/in/ahmedmusawir
+Description:	Custom Theme for Exclusive New Launch
+Template:		betheme
+Version: 		1.6
+*/
+/* LOADING STUFF
+-------------------------------------------------------------- */
+/**
+ *
+ * Colors
+ *
+ */
+/**
+ *
+ * File Imports
+ *
+ */
+/**
+ *
+ * Google Fonts
+ *
+ */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+/* Theme customization starts here
+-------------------------------------------------------------- */
+/**
+ *
+ * Logo
+ *
+ */
+#Top_bar #logo img {
+  /* vertical-align: middle; */
+  max-height: 200% !important;
+  height: 200% !important; }
+
+/**
+ *
+ * Contact Page
+ *
+ */
+.column_map .google-map-contact-wrapper .get_in_touch {
+  width: 310px !important;
+  padding: 25px;
+  float: right;
+  position: relative; }
+
+/**
+ *
+ * Widgets
+ *
+ */
+.widget.widget_text .widget-title {
+  font-size: 1.5rem; }
+
+#search-widget input[type="submit"] {
+  margin-top: 1rem; }
+
+/**
+ *
+ * Frontpage Slider 
+ *
+ */
+#slider-txt-box-1 {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border: 1rem solid gray !important;
+  color: #eeeeee; }
+
+#slider-txt-box-2 {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border: 1rem solid gray !important;
+  color: #eeeeee; }
+
+#slider-txt-box-3 {
+  background: rgba(0, 0, 0, 0.5) !important;
+  border: 1rem solid gray !important;
+  color: #eeeeee; }
+
+/**
+ *
+ * Pages General
+ *
+ */
+#Subheader {
+  background: -webkit-linear-gradient(#555555, #3c948b) left repeat !important;
+  background: linear-gradient(#555555, #3c948b) left repeat !important; }
+  #Subheader h1 {
+    color: #d9d9d9 !important; }
+
+/**
+ *
+ * Frontpage Offer Box
+ *
+ */
+.offer_box {
+  background: -webkit-linear-gradient(#555555, #3c948b) left repeat !important;
+  background: linear-gradient(#555555, #3c948b) left repeat !important; }
+
+/**
+ *
+ * Front Page Search Block
+ *
+ */
+#frontpg-search-block {
+  background-color: #5a5a5a !important; }
+  #frontpg-search-block .front-pg-search-header {
+    background: -webkit-linear-gradient(#555555, #4cb7ac) left repeat !important;
+    background: linear-gradient(#555555, #4cb7ac) left repeat !important; }
+  #frontpg-search-block h2 {
+    color: #cccccc !important; }
+  #frontpg-search-block input[type="submit"] {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important; }
+
+/**
+ *
+ * Front Page Headers
+ *
+ */
+.front-pg-headers {
+  background: -webkit-linear-gradient(#555555, #71c5bd) left repeat !important;
+  background: linear-gradient(#555555, #71c5bd) left repeat !important; }
+  .front-pg-headers h2 {
+    color: #e6e6e6 !important; }
+
+/**
+ *
+ * Archive.php Styles
+ *
+ */
+.entry-header .entry-title a {
+  font-size: 2.5rem; }
+
+#main .featured-img {
+  border: 1rem solid gray; }
+  #main .featured-img:hover {
+    opacity: .5; }
+#main .screen-reader-text {
+  display: none; }
+
+/**
+ *
+ * post title
+ *
+ */
+.post-title .entry-title a {
+  font-size: 2.5rem; }
+
+/**
+ *
+ * WP Editor Content
+ *
+ */
+.the_content_wrapper {
+  display: none; }
+
+/**
+ *
+ * Tables
+ *
+ */
+table th, table td {
+  padding: 10px;
+  text-align: left !important;
+  border-width: 1px;
+  border-style: solid;
+  vertical-align: middle; }
+
+/**
+ *
+ * Properties Pages
+ *
+ */
+.filters_wrapper {
+  background-color: #b3b3b3; }
+
+/**
+ *
+ * Footer
+ *
+ */
+#Footer .widgets_wrapper {
+  background: -webkit-linear-gradient(#71c5bd, #555555) left repeat !important;
+  background: linear-gradient(#71c5bd, #555555) left repeat !important; }
+  #Footer .widgets_wrapper h4 {
+    color: white; }
+  #Footer .widgets_wrapper .textwidget i {
+    color: white; }
+    #Footer .widgets_wrapper .textwidget i:hover {
+      color: red; }
+  #Footer .widgets_wrapper .textwidget p {
+    color: white; }
+  #Footer .widgets_wrapper .textwidget ul li a {
+    color: white; }
+
+/**
+ *
+ * For POP UP form Modal
+ *
+ */
+
+/*# sourceMappingURL=style.css.map */
