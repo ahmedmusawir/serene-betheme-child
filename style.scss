@@ -64,6 +64,25 @@ body {
 
 /**
  *
+ * Drop Down Modal (Bootstrap)
+ *
+ */
+
+.modal {
+
+	// border: 1rem solid red;
+	
+	.modal-header {
+		@include background(linear-gradient( rgba( $gray, 1 ), rgba( darken( $serene-green, 0%), 1 ) ) left repeat !important) ;
+		
+		.modal-title {
+			color: white;
+		}
+	}
+
+}
+/**
+ *
  * Logo
  *
  */

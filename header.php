@@ -215,16 +215,17 @@ if( mfn_title() ){
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">REGISTER YOUR INTEREST</h4>
       </div>
       <div class="modal-body">
         
-		<?php echo do_shortcode( ' [contact-form-7 id="2448" title="Modal Contact form"] ' ); ?>
+		<?php echo do_shortcode( ' [contact-form-7 id="2449" title="Modal Contact form_copy"] ' ); ?>
+		<?php // echo do_shortcode( ' [contact-form-7 id="2448" title="Modal Contact form"] ' ); ?>
 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
       </div>
     </div>
   </div>

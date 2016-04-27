@@ -111,7 +111,7 @@ get_header();
 
 
 
-									</div>		
+									</div>	<!-- End tax-block -->	
 
 
 

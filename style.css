@@ -32,6 +32,17 @@ Version: 		1.6
 -------------------------------------------------------------- */
 /**
  *
+ * Drop Down Modal (Bootstrap)
+ *
+ */
+.modal .modal-header {
+  background: -webkit-linear-gradient(#555555, #3c948b) left repeat !important;
+  background: linear-gradient(#555555, #3c948b) left repeat !important; }
+  .modal .modal-header .modal-title {
+    color: white; }
+
+/**
+ *
  * Logo
  *
  */
