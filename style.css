@@ -36,8 +36,8 @@ Version: 		1.6
  *
  */
 .modal .modal-header {
-  background: -webkit-linear-gradient(#555555, #3c948b) left repeat !important;
-  background: linear-gradient(#555555, #3c948b) left repeat !important; }
+  background: -webkit-linear-gradient(#555555, #d7cec7) left repeat !important;
+  background: linear-gradient(#555555, #d7cec7) left repeat !important; }
   .modal .modal-header .modal-title {
     color: white; }
 
@@ -99,8 +99,8 @@ Version: 		1.6
  *
  */
 #Subheader {
-  background: -webkit-linear-gradient(#555555, #3c948b) left repeat !important;
-  background: linear-gradient(#555555, #3c948b) left repeat !important; }
+  background: -webkit-linear-gradient(#555555, #d7cec7) left repeat !important;
+  background: linear-gradient(#555555, #d7cec7) left repeat !important; }
   #Subheader h1 {
     color: #d9d9d9 !important; }
 
@@ -110,8 +110,8 @@ Version: 		1.6
  *
  */
 .offer_box {
-  background: -webkit-linear-gradient(#555555, #3c948b) left repeat !important;
-  background: linear-gradient(#555555, #3c948b) left repeat !important; }
+  background: -webkit-linear-gradient(#555555, #d7cec7) left repeat !important;
+  background: linear-gradient(#555555, #d7cec7) left repeat !important; }
 
 /**
  *
@@ -121,8 +121,10 @@ Version: 		1.6
 #frontpg-search-block {
   background-color: #5a5a5a !important; }
   #frontpg-search-block .front-pg-search-header {
-    background: -webkit-linear-gradient(#555555, #4cb7ac) left repeat !important;
-    background: linear-gradient(#555555, #4cb7ac) left repeat !important; }
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: -webkit-linear-gradient(#555555, #ece8e5) left repeat !important;
+    background: linear-gradient(#555555, #ece8e5) left repeat !important; }
   #frontpg-search-block h2 {
     color: #cccccc !important; }
   #frontpg-search-block input[type="submit"] {
@@ -131,14 +133,34 @@ Version: 		1.6
 
 /**
  *
+ * Front Page Ticker Block
+ *
+ */
+#frontpg-ticker-block {
+  height: 100px;
+  padding-top: 2rem !important; }
+  #frontpg-ticker-block .mtphr-dnt-tick-contents a {
+    font-size: 2rem; }
+
+/**
+ *
  * Front Page Headers
  *
  */
 .front-pg-headers {
-  background: -webkit-linear-gradient(#555555, #71c5bd) left repeat !important;
-  background: linear-gradient(#555555, #71c5bd) left repeat !important; }
+  background: -webkit-linear-gradient(#555555, white) left repeat !important;
+  background: linear-gradient(#555555, white) left repeat !important; }
   .front-pg-headers h2 {
     color: #e6e6e6 !important; }
+
+/**
+ *
+ * Front Page Content block
+ *
+ */
+@media (max-width: 959px) {
+  #fp-prop-content .prop-list {
+    display: none; } }
 
 /**
  *
@@ -197,8 +219,8 @@ table th, table td {
  *
  */
 #Footer .widgets_wrapper {
-  background: -webkit-linear-gradient(#71c5bd, #555555) left repeat !important;
-  background: linear-gradient(#71c5bd, #555555) left repeat !important; }
+  background: -webkit-linear-gradient(#e2d3c4, #555555) left repeat !important;
+  background: linear-gradient(#e2d3c4, #555555) left repeat !important; }
   #Footer .widgets_wrapper h4 {
     color: white; }
   #Footer .widgets_wrapper .textwidget i {

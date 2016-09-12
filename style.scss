@@ -17,7 +17,8 @@ Version: 		1.6
  *
  */
 $roy-green: #4cd697;
-$serene-green: #3c948b;
+$serene-green: #D7CEC7;
+// $gray: #c09f80;
 // $shaw-purple: #ec008c;
 // $cheryl-purple: #B2398B;
 // $cheryl-purple-dark: #7c0552;
@@ -177,11 +178,16 @@ body {
  */
 #frontpg-search-block {
 
+
+
 	// @include background(linear-gradient( rgba( $gray, 1 ), rgba( darken( $serene-green, 0%), 1 ) ) left repeat !important) ;
 	background-color: darken( gray, 15% ) !important;
 	// border: 3px solid red;
 
 	.front-pg-search-header {
+
+		padding-top: 3rem;
+	padding-bottom: 3rem;
 		
 		@include background(linear-gradient( rgba( $gray, 1 ), rgba( lighten( $serene-green, 10%), 1 ) ) left repeat !important) ;
 
@@ -206,6 +212,24 @@ body {
 
 /**
  *
+ * Front Page Ticker Block
+ *
+ */
+#frontpg-ticker-block {
+	// border: 1px solid red;
+	height: 100px;
+	padding-top: 2rem !important;
+
+	.mtphr-dnt-tick-contents {
+
+		a {
+			font-size: 2rem;
+		}
+	}
+}
+
+/**
+ *
  * Front Page Headers
  *
  */
@@ -215,6 +239,21 @@ body {
 	h2 {
 		color: darken( white, 10% ) !important;
 		// color: lighten( $serene-green, 10% );
+	}
+}
+
+/**
+ *
+ * Front Page Content block
+ *
+ */
+#fp-prop-content {
+
+	.prop-list {
+		// border: 1rem solid red;
+		@media ( max-width: 959px ) {
+			display: none;
+		}
 	}
 }
 
@@ -298,7 +337,7 @@ table th, table td {
  */
 #Footer {
 	.widgets_wrapper {
-		@include background(linear-gradient( rgba( lighten( $serene-green, 20%), 1 ), rgba( $gray, 1 ) ) left repeat !important) ;
+		@include background(linear-gradient( rgba( lighten( #C09F80, 20%), 1 ), rgba( $gray, 1 ) ) left repeat !important) ;
 
 		h4 {
 			color: white;
